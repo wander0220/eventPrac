@@ -19,8 +19,15 @@ namespace eventPrac
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text += "♠";
-            label1.Text += "♠";
+            //sender에서 온 걸 가지고 어디서 이벤트를 발생했는지 알 수 있다.
+
+            Button btn = (Button)sender;
+            btn.Text = "으엑";
+            btn.Enabled = false;
+            
+            //textBox1.Text += "♠";
+            //label1.Text += "♠";
         }
+
     }
 }
