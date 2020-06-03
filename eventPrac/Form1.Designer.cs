@@ -28,10 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            //요기 코드 기억해 놓으면 임의로 만들어서 동적을 화면구성 만들수 있음
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+
             // 
             // button1
             // 
