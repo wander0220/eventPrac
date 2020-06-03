@@ -24,6 +24,8 @@ namespace eventPrac
             Button btn = (Button)sender;
             btn.Text = "으엑";
             btn.Enabled = false;
+
+
             
             //textBox1.Text += "♠";
             //label1.Text += "♠";
