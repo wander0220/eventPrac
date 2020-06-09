@@ -24,12 +24,16 @@ namespace eventPrac
             Button btn = (Button)sender;
             btn.Text = "으엑";
             btn.Enabled = false;
-
-
             
             //textBox1.Text += "♠";
             //label1.Text += "♠";
         }
 
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            //마우스 x값이랑 y값 알 수 있다.
+            label1.Text = "x : " + e.X + "/ Y : " + e.Y;
+        
+        }
     }
 }
